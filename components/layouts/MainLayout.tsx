@@ -4,7 +4,7 @@ import { Navbar } from "../Navbar";
 import styles from "./MainLayout.module.css";
 
 interface Props {
-  children: JSX.Element;
+  children: React.ReactNode;
 }
 
 export const MainLayout: FC<Props> = ({ children }) => {
